@@ -2,11 +2,11 @@ import React from 'react';
 
 function Footer() {
     return (
-        <div className='w-full py-20 px-20 bg-zinc-900 text-white font-["Founders_Grotesk_X-Condensed"] flex justify-between items-center'>
+        <div className='w-full py-12 px-6 md:px-20 bg-zinc-900 text-white font-["Founders_Grotesk_X-Condensed"] flex justify-between items-center'>
             {/* Left Section */}
-            <div className='w-1/2 flex flex-col justify-between'>
+            <div className='w-full md:w-1/2 flex flex-col justify-between'>
                 <div>
-                    <h1 className='text-[10vw] font-semibold uppercase leading-none mb-[-1rem]'>
+                    <h1 className='text-[8vw] md:text-[5vw] font-semibold uppercase leading-none mb-[-1rem]'>
                         Eye-
                         <br />
                         Opening
@@ -24,15 +24,20 @@ function Footer() {
             </div>
 
             {/* Right Section */}
-            <div className='w-1/2 flex flex-col justify-between'>
-                <h1 className='text-[8vw] font-semibold uppercase leading-none mb-[-1rem]'>
+            <div className='w-full md:w-1/2 flex flex-col justify-between'>
+                <h1 className='text-[8vw] md:text-[5vw] font-semibold uppercase leading-none mb-[-1rem]'>
                     Presentations
                 </h1>
                 <div className='sociallinks font-["Neue_Montreal"] mt-10 space-y-4'>
-                <a className='block text-xl font-light' href="https://www.linkedin.com/in/adityamawa/" target='_blank'>
-                LinkedIn</a>
-                    <a className='block text-xl font-light' href="https://x.com/mawa_adity950" target='_blank'>Twitter</a>
-                    <a className='block text-xl font-light' href="https://www.instagram.com/adityamawa/" target='_blank'>Instagram</a>
+                    <a className='block text-xl font-light' href="https://www.linkedin.com/in/adityamawa/" target='_blank'>
+                        LinkedIn
+                    </a>
+                    <a className='block text-xl font-light' href="https://x.com/aditya_mawa_X" target='_blank'>
+                        Twitter
+                    </a>
+                    <a className='block text-xl font-light' href="https://www.instagram.com/adityamawa/" target='_blank'>
+                        Instagram
+                    </a>
                 </div>
             </div>
         </div>
