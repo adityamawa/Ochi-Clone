@@ -21,3 +21,6 @@
 
    - Desktop screen
   ![demo video](https://github.com/adityamawa/Ochi-Clone/blob/main/ochiclone.mp4)
+
+
+  
