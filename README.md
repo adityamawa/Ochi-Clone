@@ -21,6 +21,6 @@
 - **Functionality** ⚙️  
 
 ## Deployed Project Link 🌐  
-Check out the live version here: **[Ochi Clone](https://blog-sphere-eight.vercel.app/)**  
+Check out the live version here: **[Ochi Clone](https://ochi-clone-weld.vercel.app/)**  
 
 
